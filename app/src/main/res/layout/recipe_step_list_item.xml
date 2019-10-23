@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/recipe_selection">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/recipe_step_list_item_imageView2_layout_margin"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/recipe_step_item"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/recipeStepDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/recipe_step_list_item_layout_marginBottom"
+        android:layout_marginEnd="@dimen/recipe_step_list_item_recipeStepDesc_layout_marginEnd"
+        android:layout_marginLeft="@dimen/recipe_step_list_item_recipeStepDesc_layout_marginLeft"
+        android:layout_marginRight="@dimen/recipe_step_list_item_recipeStepDesc_layout_marginRight"
+        android:layout_marginStart="@dimen/recipe_step_list_item_recipeStepDesc_layout_marginStart"
+        android:layout_marginTop="@dimen/recipe_step_list_item_recipeStepDesc_layout_marginTop"
+        android:layout_weight="2"
+        android:background="@drawable/my_border"
+        android:padding="@dimen/recipe_step_list_item_recipeStepDesc_Padding"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>
